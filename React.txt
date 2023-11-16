@@ -1,0 +1,54 @@
+figma để làm giao diện :https://www.youtube.com/watch?v=K21n-AgUqOY&list=PLncHg6Kn2JT6E38Z3kit9Hnif1xC_9VqI&index=18
+hướng dẫn xài  github:
+
+
+
+SPA single page animation
+nvm-windows to the rescue!
+kiểm tra npm ở cmd --> "nvm"(quản lý các phiên bản node.js)
+1. uninstall node.js(version node.js đang sử dụng)
+"node --version" (kiểm tra version)
+2.install nvm
+
+https://github.com/coreybutler/nvm-windows/releases
+
+3.install node.js( các version)
+"nvm install ....."(version)
+chuyển version 
+"nvm use ....."(version)
+
+
+node --version				 to check the current version
+nvm list 					to list installed versions
+nvm use 8.8.1 					so we switch from 6 to 8
+nvm on 						to enable it
+node --version				to re-check the node version
+
+npm install -g yarn
+Get-ExecutionPolicy
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
+
+yarn install
+yarn start
+
+4.nhanhs github 
+https://github.com/haryphamdev/Frontend-React.JS-QuickStart
+
+copy vao gib bas
+git clone https://github.com/haryphamdev/Frontend-React.JS-QuickStart.git
+
+
+5.project 
+dùng redux để điều hướng link(mapDispatchToProps,mapStateToProps)
+containers/app.js vòa đầu tiên
+class component >< arrow component
+... app = (props)=> {}
+class componet : dễ theo dõi tuần tự code
+hook (kết hợp function component),
+
+
+JSX : cấu trúc react để render  ra view . tức là viết javascript vào ngày trong html
+
+horizontal line
+
